@@ -7,8 +7,10 @@ Sequel.migration do
         primary_key :id, type: :serial
         String :name, null: false
         Integer :base_hours, null: false
-        Time :lunch_start
-        Time :lunch_end
+        
+        # CAMBIO CLAVE: Usamos el tipo :time
+        column :lunch_start, :time 
+        column :lunch_end, :time
     end
 
     # Tabla PROFILES: Cuentas de usuario
