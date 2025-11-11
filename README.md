@@ -29,8 +29,8 @@ Sigue estos pasos en orden para poner el servidor a funcionar.
 
 1.  **Clonar el Repositorio:**
     ```bash
-    git clone [https://aws.amazon.com/es/what-is/repo/](https://aws.amazon.com/es/what-is/repo/)
-    cd [NOMBRE DEL PROYECTO]
+    git clone [https://github.com/RodrigoAGA/assist_flow_db.git](https://github.com/RodrigoAGA/assist_flow_db.git)
+    cd /assist_flow_db
     ```
 2.  **Instalar Dependencias:** Este comando instalará la gema `pg` (PostgreSQL adapter).
     ```bash
